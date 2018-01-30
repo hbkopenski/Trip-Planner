@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #C1B5AD;
+  }
+
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #navbar {
+      background-color: red;
+      width: 100vw;
+      height: 8vh;
+  }
+
+  #navbar li {
+      display: inline-flex;
+      float: right;
+  }
+
+  aside {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .panel {
+      margin: 1rem;
+      padding: 1rem;
+      background-color: #C1B5AD;
+      color: #aaa;
+  }
+
+  .panel > div {
+      margin-top: 1.25rem;
+      margin-bottom: 1.25rem;
+  }
